@@ -4,7 +4,8 @@
 // "function" es una función anónima, sin nombre
 Route::get('/', function () {
     //return view('welcome');
-    return view('home');
+    //return view('home');
+    return "usando Git";
 });
 
 Route::post('/form', 'ambientesController@show');
