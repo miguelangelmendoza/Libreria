@@ -4,11 +4,16 @@
 // "function" es una función anónima, sin nombre
 Route::get('/', function () {
     //return view('welcome');
-    return view('home');
+    return view('website.index2');
     //return "usando Git";
 });
 
-Route::post('/form', 'ambientesController@show');
+Route::get('/tienda', function(){
+	return view('website.tienda');
+});
+
+/*
+Route::post('/form', 'ambientesController@store');
 
 //controlador
 Route::get('/controller', 'ambientesController@index');
@@ -24,3 +29,4 @@ else{
 	return "no valido";
 }
 });
+*/

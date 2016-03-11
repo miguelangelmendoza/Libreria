@@ -1,0 +1,30 @@
+.fa{
+	padding-left: 20px;
+}
+.aa{
+	padding-left: 40px;
+}
+/* 
+selectores css3 
+clases "."
+id "#"
+etiquetas "tag"
+magin del elemento hacia afuera(no modifica el componente)
+padding del elemento hacia adentro(modifica el tamaño del componente)
+*/
+#slider-libreria, #section2{
+	margin-top: 30px;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #b71c1c;
+}
+
+/* justificar el texto */
+#texto{
+text-align : justify;
+}
+
+.btn-social{
+	font-size: 25px;
+	margin-left: 20px;
+}

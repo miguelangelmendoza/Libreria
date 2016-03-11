@@ -11,8 +11,14 @@
 <form action="/form" method="POST">
 	<label>Nombre: </label>
 	<input type="text" name="nombre"/>
+	<label>Nick: </label>
+	<input type="text" name="nick"/>
 	<label>Email: </label>
 	<input type="email" name="email"/>
+	<label>Password: </label>
+	<input type="password" name="password"/>
+	<label>Telefono: </label>
+	<input type="text" name="telefono"/>
 	<input type="submit" value="Enviar"/>
 </form>
 </body>
